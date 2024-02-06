@@ -1,0 +1,6 @@
+module:com.project
+com.project
+com.project.controller
+com.project.dao
+com.project.datasource
+com.project.model

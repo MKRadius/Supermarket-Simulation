@@ -1,0 +1,10 @@
+com\project\dao\ProductDAO.class
+com\project\datasource\MariaDBConnection.class
+com\project\model\Customer.class
+com\project\Supermarket.class
+module-info.class
+com\project\controller\Controller.class
+com\project\model\Product.class
+com\project\model\Shelf.class
+com\project\model\Cashier.class
+com\project\Main.class

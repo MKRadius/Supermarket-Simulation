@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.controller.Controller">
+   <children>
+      <SplitPane dividerPositions="0.8" prefHeight="720.0" prefWidth="1280.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <Pane fx:id="mainPane" prefHeight="700.0" prefWidth="1000.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutY="259.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="126.0" layoutX="218.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                  <Rectangle fx:id="path1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="218.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="160.0" layoutX="218.0" layoutY="282.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                  <Rectangle fx:id="path2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="218.0" layoutY="332.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                  <Rectangle fx:id="path3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="218.0" layoutY="537.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="126.0" layoutX="218.0" layoutY="597.0" stroke="BLACK" strokeType="INSIDE" width="380.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="877.0" layoutY="72.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                  <Rectangle fx:id="cashierQ1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="776.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="877.0" layoutY="247.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                  <Rectangle fx:id="cashierQ2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="776.0" layoutY="189.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="877.0" layoutY="420.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                  <Rectangle fx:id="cashierQ3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="776.0" layoutY="362.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" layoutX="877.0" layoutY="595.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                  <Rectangle fx:id="cashierQ4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="776.0" layoutY="537.0" stroke="BLACK" strokeType="INSIDE" width="201.0" />
+                  <Text layoutX="382.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shelf" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="382.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shelf" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="382.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shelf" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="382.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shelf" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="-21.0" layoutY="369.0" rotate="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Entrance" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="888.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="888.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="888.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="888.0" layoutY="652.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cashier" textAlignment="CENTER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <VBox alignment="TOP_CENTER" prefHeight="700.0" prefWidth="280.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Customer">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="customerCountInput" text="50" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="CENTER" text="Customer Speed">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Slider fx:id="speedSlider" showTickLabels="true" showTickMarks="true" value="50.0" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="startSimulationButton" mnemonicParsing="false" onMouseClicked="#onStartSimulation" text="Start simulation" />
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
